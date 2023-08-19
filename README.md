@@ -8,3 +8,5 @@ Upon clicking all the countries with respective first and second place, the user
 
 The user can then choose the countries in the bracket to successively advance the country of the user's choice one by one.
 
+![image](./GroupStages.png)
+
