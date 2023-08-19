@@ -1,0 +1,52 @@
+.playoff-sixth-box{
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    width:1320px;
+}
+
+.playoff-fifth-box{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height:1400px;
+}
+
+.playoff-fourth-box{
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    width:960px;
+}
+
+.playoff-third-box{
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:680px;
+}
+
+.playoff-second-box{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    width:600px;
+    /* height:1500px; */
+
+}
+
+.playoff-first-box{
+
+    display:flex;
+    flex-direction:column;
+    width:240px;
+    height:320px;
+    justify-content: space-around;
+    /* border: 1px solid; */
+}

@@ -1,0 +1,43 @@
+.groupbox-container{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 220px;
+    height: 290px;
+    background-color: rgb(159, 151, 151);
+    border-radius: 25px;
+    /* overflow:hidden; */
+    /* margin:5px; */
+    /* outline: 3px solid black; */
+
+}
+
+.groupbox-item-1{
+    display:flex;
+    width:220px; /*Since flexflow increases its height*/
+    height:60px;
+    justify-content:center;
+    align-items: center;
+    border-bottom: 1px dotted gold;
+        /* outline: 3px solid black; */
+
+
+    font-family:"Arial";
+    font-weight:bold;
+    font-size:22px;
+    color:Black;
+}
+
+.groupbox-item-2{
+
+    /* height: 44*3; */
+    /* outline: 3px solid black; */
+    border-color:black;
+}
+
+.errorMessage{
+    text-align:center;
+    color:White;
+    padding-top: 50px;
+}

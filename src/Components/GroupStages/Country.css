@@ -1,0 +1,62 @@
+div{
+
+    color:white;
+}
+
+.countrybox-container_ {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width: 200px;
+    background-color: rgb(159, 151, 151);
+    justify-content: flex-start;
+    align-items: center;
+
+    /* border: 2px solid black; */
+}
+
+.countrybox-item-1 > img{
+    width: 48px;
+    height: 32px;
+    border: 1px solid white;
+}
+
+
+.countrybox-item-1{
+    display:flex; 
+    /* flex-grow:1; */ 
+    /* flex-shrink:0; */
+    flex-basis:50px;
+
+    margin: 5px;
+    /* width:120px; */
+    /* margin:10px; */
+    /* border: 3px solid black; */
+    /* outline:3px solid black; */
+
+}
+
+.countrybox-item-2{
+
+    /* flex-grow:2; */
+    /* outline:3px solid black; */
+    display:flex;
+    justify-content: center;
+    flex-basis:140px;
+
+    font-family:"Arial";
+    font-weight:bold;
+    font-size:20px;
+    color:Black;
+    /* border: 3px solid black; */
+
+}
+
+.first{
+    background-color: rgb(14, 111, 208);
+}
+
+.second{
+
+    background-color: rgb(27, 161, 67);
+}

@@ -1,0 +1,26 @@
+.button-container{
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content:space-between;
+    height:600px;
+    
+
+}
+
+.groupstage-container{
+
+    display:flex;
+    flex-flow: row wrap;
+    /* justify-content: space-evenly; */
+    align-items:space-between;
+}
+
+.groupstage-item{
+    display:flex;
+    justify-content:center;
+    flex-basis:25%;
+    margin-top:20px;
+    /* outline: 3px solid black; */
+}
+
